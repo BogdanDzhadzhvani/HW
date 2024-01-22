@@ -1,0 +1,138 @@
+fieldset {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+select {
+    margin: 10px;
+    height: 150px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+}
+
+#checkbox-id {
+  display: none;
+}
+
+/* Стилізація псевдоелементу label:before як фону зовнішнього вигляду чекбокса */
+#checkbox-id + label:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #eee; /* Колір фону чекбокса */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-right: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* Стилізація псевдоелементу label:after як галочки, яка з'являється при виборі */
+#checkbox-id:checked + label:before {
+  background-color: rgb(63 176 0); /* Колір фону чекбокса при виборі */
+  border-color: rgb(54 131 13);
+  content: '\2713'; /* Юнікод для галочки */
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+  color: #fff; /* Колір галочки */
+  text-align: center;
+  line-height: 20px;
+}
+
+/* Додаткові стилі для label (текст чекбокса) */
+label {
+  font-size: 16px;
+  cursor: pointer;
+  color: #333; /* Колір тексту чекбокса */
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* Сховати стандартний чекбокс */
+#checkbox-id2 {
+  display: none;
+}
+
+/* Стилізація псевдоелементу label:before як фону зовнішнього вигляду чекбокса */
+#checkbox-id2 + label:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #eee; /* Колір фону чекбокса */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-right: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#checkbox-id2:checked + label:before {
+  background-color: rgb(63 176 0);
+  border-color: rgb(54 131 13); 
+  content: '\2713'; 
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+}
+
+label {
+  font-size: 16px;
+  cursor: pointer;
+  color: #333; 
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#checkbox-id3 {
+  display: none;
+}
+
+#checkbox-id3 + label:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #eee; 
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-right: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#checkbox-id3:checked + label:before {
+  background-color: rgb(63 176 0);
+  border-color: rgb(54 131 13);
+  content: '\2713'; 
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+}
+
+label {
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+

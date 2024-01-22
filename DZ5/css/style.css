@@ -1,0 +1,145 @@
+.header_container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orange;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;   
+}
+
+.logo {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+}
+
+.item {
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 20px;  
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.item {
+    margin-right: 15px;
+}
+
+.logoimg {
+    width: 150px;
+    height: 150px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer {
+    background-color: #f3cb46;
+    text-align: center;
+    padding: 10px;
+  }
+
+  main {
+    display: flex;
+    flex: 1;
+  }
+
+  .Aside1 {
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+  }
+
+  .Aside2 {
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    width: 100%;
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+main {
+    display: flex;
+}
+
+  .main_container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+.text_image {
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.rewiews {
+    display: flex;
+    width: 30%;
+}
+
+.content_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rewiews2 {
+    display: flex;
+}
+
+.rewiews button a {
+    text-decoration: none;
+    color: white;
+  }
+
+.rewiews button {
+    background-color: rgb(97, 80, 170);
+    border-radius: 25%;
+  }
+
+  .content_top {
+    display: flex;
+  }
+
+  .content_center {
+    display: flex;
+  }
